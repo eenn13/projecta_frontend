@@ -1,0 +1,28 @@
+.nav-item-container {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 34px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-item-container:hover {
+    .info-text{
+        text-decoration: underline;
+    }
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
